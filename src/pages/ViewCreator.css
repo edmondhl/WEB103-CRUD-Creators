@@ -1,0 +1,136 @@
+.creatorPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-5rem);
+    width: 100vw;
+}
+.creatorHandle{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Bungee', sans-serif;
+    color: white;
+}
+.creatorDescription {
+    font-size: 1rem;
+    color: white;
+    margin-top: 20px;
+    max-width: 700px;
+    line-height: 40px;
+    
+}
+.creatorCardContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:50px;
+    transform: translateX(-3rem);
+}
+.creatorImage {
+    width: 25rem; /* or whatever size */
+    height: auto;
+}
+.editDeleteGrp{
+    display: flex;
+    gap: 5rem;
+    transform: translateY(5rem);
+}
+.editDeleteGrp button{
+    background-color: rgb(37, 81, 177);
+    font-size:larger;
+    width:15rem;
+}
+.editDeleteGrp button:hover{
+    background-color: rgb(31, 69, 150);
+    cursor: pointer;
+}
+.editDeleteGrp .deleter{
+    background-color: rgb(177, 37, 37);
+}
+.editDeleteGrp .deleter:hover{
+    background-color: rgb(122, 25, 25);
+    cursor: pointer;
+}
+
+
+
+.confirmOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.274);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; 
+}
+
+
+.confirmContent {
+  background: rgb(194, 193, 193);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 25vw;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  
+}
+
+.confirmContent h2 {
+  
+  color: rgb(0, 0, 0);
+}
+
+
+.confirmBtns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+
+.confirmDelete {
+  background-color: rgb(177, 37, 37);
+  color: white;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 45%;
+}
+
+.confirmDelete:hover {
+  background-color: rgb(122, 25, 25);
+    cursor: pointer;
+   
+}
+
+/* Cancel button */
+.cancelBtn {
+  background-color: rgb(37, 81, 177);
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 45%;
+}
+
+.cancelBtn:hover {
+  background-color: rgb(31, 69, 150);
+}

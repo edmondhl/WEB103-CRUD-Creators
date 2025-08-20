@@ -1,0 +1,38 @@
+.creator-description{
+    font-size: 16px;
+    color: #f0f0f0;
+    text-align: left;
+    margin: 10px 0;
+    display: -webkit-box;       
+    -webkit-line-clamp: 3;      
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.creator-content p{
+    color: rgb(216, 215, 215)
+}
+.creator-links{
+    display: flex;
+    gap: 10px;
+
+}
+.creator-content{
+    position: relative;
+    z-index:2;
+}
+.cardActions button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+.cardActions {
+  position: absolute;
+  top: 16px;     
+  right: 16px;  
+  display: flex;
+  gap: 16px;     
+}
