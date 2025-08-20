@@ -80,6 +80,7 @@ function AddCreator() {
                     type="text"
                     name="description"
                     placeholder="Description"
+                    maxLength={656} 
                     value={form.description}
                     onChange={handleChange}
                     aria-invalid={form.description.trim() === '' ? "true" : "false"}

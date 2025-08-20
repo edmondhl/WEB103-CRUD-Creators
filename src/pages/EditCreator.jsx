@@ -96,6 +96,7 @@ function EditCreator() {
                     type="text"
                     name="description"
                     placeholder="Description"
+                    maxLength={656} 
                     value={creatorData.description}
                     onChange={handleChange}
                     aria-invalid={creatorData.description.trim() === '' ? "true" : "false"}
