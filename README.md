@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented required features (may take a second to load) :
 
 👉🏿
 ![App Demo](demo/streamerCRUD.gif)
